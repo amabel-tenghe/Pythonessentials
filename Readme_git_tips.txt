@@ -19,3 +19,15 @@ git log  --pretty=format: --name-only --diff-filter=A | sort - | sed '/^&/d'
 #Create a new branch
 git checkout -b <my branch name>
 
+#Switch between branches
+git checkout <branch name>
+
+#Push a branch to GitHub
+git push origin <branch name>
+
+#Get/Download changes on GitHub back to your computer (local repo)
+git  pull origin master
+
+#See all commits that have been performed
+git log
+
